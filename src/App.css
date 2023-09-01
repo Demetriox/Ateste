@@ -1,0 +1,29 @@
+@font-face {
+  src: url(../src/Assets/Fonts/WorkSans-Regular.ttf);
+  font-family: work-sans;
+}
+
+@font-face {
+  src: url(../src/Assets/Fonts/WorkSans-Bold.ttf);
+  font-family: work-bold;
+}
+
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: work-sans;
+  width: 100vw;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}

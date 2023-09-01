@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+        .cofundadores{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding-right: 2rem;
+            padding-left: 2rem;
+        }
+
+
+@media (min-width: 600px){
+
+    
+        .tituloVeta{
+            padding-top: 2rem;
+            text-align: center;
+            font-size: 3rem;
+            font-family:'Arvo', serif;
+            
+        }
+
+        .textoSubVeta{
+            padding-left: 18%;
+            padding-right: 18%;
+            letter-spacing: 1px;
+            font-size:1.2rem;
+            margin-bottom: 5rem;
+            margin-top: 2rem;
+            text-align: justify;
+            font-family:'Arvo', serif;
+            
+        }
+
+        .textoVeta{
+            text-align: center;
+            font-family: 'Arvo' serif;
+         
+        }
+
+        .cualEs{
+            font-weight: 700;
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .gridVetaInfo{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding-right: 13rem;
+            padding-left: 13rem;
+        }
+
+        .imgWidth{
+            width: 30rem;
+            margin-bottom: 3rem;
+        }
+
+        .imgTitle{
+            width: 25rem;
+            margin-bottom: 3rem;
+           
+        }
+        .titleHistoria{
+            padding-left: 18%;
+            padding-right: 18%;
+            letter-spacing: 1px;
+            font-size:1.3rem;
+            margin-bottom: 1rem;
+            margin-top: 3rem;
+            text-align: left;
+            font-family:'Arvo', serif;
+            
+
+        }
+        .textoHistoria{
+            padding-left: 18%;
+            padding-right: 18%;
+            letter-spacing: 1px;
+            font-size:1.2rem;
+            margin-bottom: 0rem;
+            margin-top: 2rem;
+            text-align: justify;
+            font-family:'Arvo', serif;
+            
+
+        }
+     
+    
+
+
+}
+
+@media (max-width: 1000px) { 
+    
+    .gridVetaInfo{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 1rem;
+        font-size: .9rem;
+    }
+
+    .imgWidth{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .imgTitle{
+        width: 85%;
+        margin-bottom: 3rem;
+    }
+    .tituloVeta{
+        text-align: center;
+        font-weight: 600;
+        letter-spacing: .2rem;
+        font-size: 2.1rem;
+        font-family:'Arvo', serif;
+    }
+
+    .textoSubVeta{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        letter-spacing: 1px;
+        font-size: .9rem;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+        text-align: justify;
+        font-family:'Arvo', serif;
+        
+    }
+
+    .textoVeta{
+        text-align: center;
+        font-family:'Arvo', serif;
+    }
+
+    .cualEs{
+        font-weight: 700;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        font-size: .8rem;
+    }
+
+    .mariana{
+        text-align: right;
+        margin-bottom: 2rem;
+        font-weight: lighter;
+        text-decoration: none;
+        margin-top: 3rem;
+        margin-right: 2rem;
+        font-size: .8rem;
+    }
+
+
+
+}

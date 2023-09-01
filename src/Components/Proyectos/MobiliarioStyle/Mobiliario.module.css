@@ -1,0 +1,78 @@
+@media (max-width: 1300px) {
+    .imgMobiliarioSuperior2 {
+        width: 95%;
+        /* width of container */
+        height: 16rem;
+        margin-left: 2%;
+        /* height of container */
+        text-align: center;
+        object-position: 10% 60%;
+        object-fit: cover;
+        margin-right: 2%;
+    }
+
+    .imgMobiliarioSuperior {
+        width: 100%;
+        /* width of container */
+        height: 15rem;
+        /* height of container */
+        object-fit: cover;
+        text-align: center;
+    }
+
+    .imgMobiliarioSuperior3 {
+        width: 100%;
+        /* width of container */
+        height: 15rem;
+        /* height of container */
+        text-align: center;
+        object-position: 10% 60%;
+        object-fit: cover;
+    }
+
+}
+
+@media (min-width: 1300px) {
+    .imgMobiliarioSuperior {
+        /* height of container */
+        text-align: center;
+        object-position: 10% 30%;
+        width: 98%;
+        height: 39.85rem;
+    }
+
+    .imgMobiliarioSuperior2 {
+        width: 100%;
+        /* width of container */
+        text-align: center;
+        object-position: 10% 60%;
+    }
+
+    .imgMobiliarioSuperior3 {
+        text-align: center;
+        object-position: -20% 8%;
+        object-fit: cover;
+        max-width: 100%;
+        width: 70rem;
+        height: 39.85rem;
+    }
+
+    .imgMobiliarioSuperior4 {
+        width: 100%;
+        /* width of container */
+        /* height of container */
+        text-align: center;
+        object-position: -50% 10%;
+
+    }
+
+
+
+}
+
+
+.mobiliarioText {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 3rem;
+}

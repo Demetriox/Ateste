@@ -1,0 +1,32 @@
+
+.generalProyecto{
+    text-align: center;
+}
+
+.cuentanos{
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.linkCuenta{
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+.titulo{
+    font-size: 3rem;
+}
+
+
+
+@media (max-width: 800px) {
+    .generalProyecto{
+        text-align: center;
+    }
+  }
+
+
+.loadingBox{
+    height: 90vh;
+}

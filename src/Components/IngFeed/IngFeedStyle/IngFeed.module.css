@@ -1,0 +1,31 @@
+.arrobaVeta{
+    font-size: .8rem;
+    text-decoration: none;
+    letter-spacing: .2rem;
+}
+
+.ingFeed{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  1fr 1fr;
+    grid-template-rows: 1fr; 
+    margin-top: 2rem;
+    padding-top:2rem;
+    overflow: hidden;
+    background-color: #2A2A2A;
+}
+
+.contenedorIngFeed{
+    background-color: #2A2A2A;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+@media (max-width: 1300px) {
+    .ingFeed{
+        display:none;
+    }    
+    .backGray {
+        display: none;
+    }
+  }

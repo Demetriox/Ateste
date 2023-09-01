@@ -1,0 +1,59 @@
+.generalProyecto {
+    width: 100vw;
+    height: 65vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.cuentanos {
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.linkCuenta {
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+.titulo {
+    font-size: 3rem;
+    display: grid;
+    align-self: center;
+
+}
+
+.namefield {
+    font-size: 1.5rem;
+    display: grid;
+    align-self: center;
+}
+
+
+
+
+
+@media (max-width: 800px) {
+    .generalProyecto {
+        text-align: center;
+    }
+}
+
+
+.loadingBox {
+    height: 90vh;
+}
+
+.buttonClass {
+    background-color: #0097AC;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

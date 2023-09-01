@@ -1,0 +1,23 @@
+@font-face {
+  src: url(../src/Assets/Fonts/WorkSans-Regular.ttf);
+  font-family: work-sans;
+}
+
+@font-face {
+  src: url(../src/Assets/Fonts/WorkSans-Bold.ttf);
+  font-family: work-bold;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: work-sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

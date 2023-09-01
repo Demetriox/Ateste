@@ -1,0 +1,211 @@
+.colorTotal{
+    position: absolute;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    height: 6rem;
+}
+
+
+.header_wrapper{
+    z-index: 90000;
+    height: 15000px;
+    position: relative;
+}
+
+.navBg{
+    background-color: #363946;
+    color: whitesmoke;
+}
+
+
+.icon{
+    color: whitesmoke;
+}
+
+
+
+
+@media (max-width: 1300px) {
+    .ingFeed{
+        display:none;
+    }    
+    .backGray {
+        display: none;
+    }
+  
+    .mr-auto{
+        color: white;
+    }
+
+    .imgNavLink{
+        width: 200px;
+        margin-bottom: -10rem;
+        padding-bottom: 6rem;
+        margin-left: -2rem;
+        padding-top: 6rem;
+        height: auto;
+        object-fit: cover;
+        display: none;
+     }
+
+     .imgNavLinkG{
+        max-height: 100px;
+        max-width: 14rem;
+        width: 24rem;
+        height: 2rem;
+        margin-bottom: -2rem;
+        object-fit: cover;
+        margin-left: 4rem;
+        background-color: transparent;
+        position: absolute;
+        z-index: 1000;
+     }
+
+     .justX{
+         z-index: -200;
+         margin-top: -1.5rem;
+         font-family: 'Arvo' serif;
+     }
+
+     .footerStyle {
+        background-color: #0097AC;
+        color: white;
+        height: 20rem;
+        display: grid;
+        grid-template-columns: 1px 15fr ;
+        font-size: 1rem;
+    }
+    
+
+    .footerDivicion {
+        display: grid;
+        grid-template-columns: 1fr; 
+       }
+
+    .sep {
+            font-size: 14px;
+            display: grid;
+       
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .socialNetwork {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+  }
+
+  @media (min-width:950px ){
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+    .imgNavLinkG{
+        display: none;
+     }
+
+     .headerS{
+        margin-top: -30px;
+        background-color: transparent;
+        font-family: 'Arvo' serif;
+    }
+
+
+    .footerStyle {
+        background-color: #0097AC;
+        color: white;
+        height: 14rem;
+        display: grid;
+        grid-template-columns: 1fr 5fr 208px 1fr;
+        padding-top: 4rem;
+        font-size: 1rem;
+        margin-left: -1rem;
+    }
+
+    .footerDivicion {
+   
+        margin-bottom: 1rem;
+        font-size: 14px;
+      
+    }
+    .sep{
+        display:grid;
+        grid-template-columns: 5fr 14fr;
+        column-gap: 5vw;
+    
+      
+        
+    }
+
+
+    
+  .imgNavLink{
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+ }
+
+
+.iconMail{
+
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    align-self: flex-end;
+}
+.wa {
+    width: 1rem;
+    padding-bottom: 0rem;
+     margin-top: 0rem;
+}
+
+.backGray{
+    background-color: rgb(39, 77, 82);
+    color: white;
+    text-align: center;
+    padding-top: 4rem;
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+.socialNetwork {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: right;
+    height: 20px;
+    padding-top: 0rem;
+    text-align: right;
+}
+
+
+  }
+
+
+
+  .iconStyle {
+    margin-top: 15px;
+    width: 25px;
+    color: white;
+    margin-right: 7px;
+}
+
+
+
+a { color: inherit; } 
+
+a:hover 
+{
+     color:#000000; 
+     text-decoration:none; 
+     cursor:pointer;  
+     letter-spacing: .3px;
+}
+
+
+.bakPunto{
+    background-color: transparent;
+    height: 4.5rem;
+    padding-top: -6rem;
+}
+
+.colorTotal{
+    background-color: whitesmoke;
+    z-index: 5;
+}

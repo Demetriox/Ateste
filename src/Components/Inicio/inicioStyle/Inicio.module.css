@@ -1,0 +1,638 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+.content {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 7rem;
+  }
+  .content video {
+    width: 100%;
+    position: relative;
+    margin-top: -120px;
+  }
+  .content:before {
+    content: '';
+    color: whitesmoke;
+    position: absolute;
+    text-align: center;
+    padding-top: 17%;
+    font-size: 4rem;
+    border-radius: 5px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+.objetivo1 {
+    font-size:20px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 35px;
+    letter-spacing: 3px;
+    font-family:'Arvo', serif;
+
+}
+
+
+
+
+
+.queHacemos {
+    font-size:2rem;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 35px;
+    letter-spacing: 1px;
+    font-family:'Arvo', serif;
+}
+
+.divicionLine{
+    border: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-left: 43%;
+    padding-right: 43%;
+}
+
+
+
+
+.divicionLine:after {
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #F6F6F6;
+}
+
+ 
+
+.imgInicio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 650px;
+    background: url(./../../../Assets/salaEspera.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 0 50%;
+}
+
+
+@media (max-width: 1300px) { 
+
+    /* .content{
+        display: none;
+    }
+     */
+
+
+    .imgAtrevete{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 85vw;
+    }
+
+ }
+
+ @media (max-width: 800px) {
+   
+  .card1{
+    padding-top: 4rem;
+  }
+
+  .divicionLine{
+    margin-top: 10rem;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+    margin-bottom: 10rem;
+  }
+ }
+
+ @media (min-width: 1300px) { 
+
+    .linkButton{
+        width: 90%;
+        height: 12%;
+        z-index: 100;
+    } 
+
+    .imgAtrevete{
+       display: none;
+    }
+
+
+
+ }
+  
+
+  /* Estilos de los 4 sectores en Inicio */
+  @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+:root {
+  --d: 700ms;
+  --e: cubic-bezier(0.19, 1, 0.22, 1);
+  --font-sans: 'Arvo', serif;
+  --font-serif: 'Arvo', serif; 
+  font-family: 'Arvo', serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+.pagecontent {
+  display: grid;
+  grid-gap: 2rem;
+  padding: 1rem;
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: var(--font-sans);
+}
+@media (min-width: 600px) {
+  .pagecontent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+
+@media (min-width: 850px) {
+  .pagecontent {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .card {
+    height: 350px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    padding-bottom: 8rem;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media (max-width: 1300px){
+  .card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    padding-bottom: 8rem;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: whitesmoke;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+  }
+  }
+  
+
+
+
+
+.card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 110%;
+  background-size: cover;
+  background-position: 0 0;
+  transition: transform calc(var(--d) * 1.5) var(--e);
+  pointer-events: none;
+  transform: translate(-40%,-5%);
+
+}
+.card:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: transform calc(var(--d) * 2) var(--e);
+  
+}
+.card:nth-child(1):before {
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/atrevetesite.appspot.com/o/PROYECTOS%2F38065461_2152722224984622_8129607500522586112_n.jpg?alt=media&token=7580a59e-85dd-4b9c-a7db-e56bea18a190);
+}
+.card:nth-child(2):before {
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/atrevetesite.appspot.com/o/Fotos%20negras%2FAtr_37.jpeg?alt=media&token=eaedcc95-e5cd-4229-a63a-53f88b829aba);
+}
+.card:nth-child(3):before {
+
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/atrevetesite.appspot.com/o/Fotos%20negras%2FAtr_38_1.jpeg?alt=media&token=e499f654-07e1-47cd-9541-65bc9846f8c6);
+}
+.card:nth-child(4):before {
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/atrevetesite.appspot.com/o/Fotos%20negras%2FAtr_7_1.jpg?alt=media&token=4aaab40f-8b05-4078-aa70-96c35aca91d3);
+}
+
+.cardcontent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 100%;
+  padding: 1rem;
+  transition: transform var(--d) var(--e);
+  z-index: 1;
+}
+.cardcontent > * + * {
+  margin-top: 1rem;
+}
+
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.copy {
+  font-family: var(--font-serif);
+  font-size: 1.125rem;
+  font-style: italic;
+  line-height: 1.35;
+}
+
+
+@media (hover: hover) and (min-width: 850px) {
+  .card:after {
+    transform: translateY(0);
+  }
+ 
+   .cardcontent {
+    transform: translateY(calc(20% - 4.5rem));
+  }
+   .cardcontent > *:not(.title) {
+    opacity: 0;
+    transform: translateY(1rem);
+    transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+  }
+
+  .card:hover,
+.card:focus-within {
+    align-items: center;
+  }
+  .card:hover:before,
+.card:focus-within:before {
+    transform: translate(-30%,-8%);
+  }
+  .card:hover:after,
+.card:focus-within:after {
+    transform: translateY(0%);
+   
+
+  }
+
+  .card:nth-child(1):hover:after,
+  .card:nth-child(1):focus-within:after {
+  transform: translateY(-8%);
+  content: "Realización de ferias de salud, llevando médicos, enfermeras, ginecólogos, pediatras, nutriólogos, etc.";
+  padding-top: 15rem;
+
+  }  .card:nth-child(2):hover:after,
+  .card:nth-child(2):focus-within:after {
+  transform: translateY(-8%);
+  content: "Apoyo a comunidades de escasos recursos a través de donaciones de ropa, juguetes, despensa y medicamentos.";
+  padding-top: 15rem;
+
+  }  .card:nth-child(3):hover:after,
+  .card:nth-child(3):focus-within:after {
+  transform: translateY(-8%);
+  content: "Tiene como objetivo proporcionar recursos y servicios para que personas en situaciones vulnerables puedan ejercer un oficio, a través de cursos y talleres.";
+  padding-top: 15rem;
+  
+
+  }  .card:nth-child(4):hover:after,
+  .card:nth-child(4):focus-within:after {
+  transform: translateY(-8%);
+  content: "Concientizar a través de eventos y el uso de las redes sociales sobre la importancia de ayudar a las demás personas.";
+  padding-top: 15rem;
+
+  }
+
+  
+  .card:hover  .cardcontent,
+.card:focus-within  .cardcontent {
+    transform: translateY(50%);
+  }
+  .card:hover  .cardcontent > *:not(.title),
+.card:focus-within .cardcontent > *:not(.title) {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: calc(var(--d) / 8);
+  }
+  
+
+  .card:focus-within:before, .card:focus-within:after,
+.card:focus-within .cardcontent,
+.card:focus-within .cardcontent > *:not(.title) {
+    transition-duration: 0s;
+  }
+}
+
+@media (max-width:1300px) {
+  .card {
+    height: 350px;
+   
+  }
+
+.card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 110%;
+  background-size: cover;
+  background-position: 0 0;
+  transition: transform calc(var(--d) * 1.5) var(--e);
+  pointer-events: none;
+  transform: translate(-40%,-5%);
+
+}
+.card:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: transform calc(var(--d) * 2) var(--e);
+  
+}
+.card:nth-child(1):before {
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/atrevetesite.appspot.com/o/PROYECTOS%2F38065461_2152722224984622_8129607500522586112_n.jpg?alt=media&token=7580a59e-85dd-4b9c-a7db-e56bea18a190);
+}
+.card:nth-child(2):before {
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/atrevetesite.appspot.com/o/Fotos%20negras%2FAtr_37.jpeg?alt=media&token=eaedcc95-e5cd-4229-a63a-53f88b829aba);
+}
+.card:nth-child(3):before {
+
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/atrevetesite.appspot.com/o/Fotos%20negras%2FAtr_38_1.jpeg?alt=media&token=e499f654-07e1-47cd-9541-65bc9846f8c6);
+}
+.card:nth-child(4):before {
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/atrevetesite.appspot.com/o/Fotos%20negras%2FAtr_7_1.jpg?alt=media&token=4aaab40f-8b05-4078-aa70-96c35aca91d3);
+}
+
+.cardcontent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  transition: transform var(--d) var(--e);
+  z-index: 1;
+}
+.cardcontent > * + * {
+  margin-top: 1rem;
+}
+
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.copy {
+  font-family: var(--font-serif);
+  font-size: 1.125rem;
+  font-style: italic;
+  line-height: 1.35;
+}
+.container1 {
+  
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 15vw;
+  column-gap: 1vw;
+  height: 35vh 
+
+  
+}
+  
+}
+@media(hover: hover) and (max-width: 1300px){
+  .card:after {
+    transform: translateY(0);
+  }
+ 
+   .cardcontent {
+    transform: translateY(calc(20% - 4.5rem));
+  }
+   .cardcontent > *:not(.title) {
+    opacity: 0;
+    transform: translateY(1rem);
+    transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+  }
+
+  .card:hover,
+.card:focus-within {
+    align-items: center;
+  }
+  .card:hover:before,
+.card:focus-within:before {
+    transform: translate(-30%,-8%);
+  }
+  .card:hover:after,
+.card:focus-within:after {
+    transform: translateY(0%);
+   
+
+  }
+
+  .card:nth-child(1):hover:after,
+  .card:nth-child(1):focus-within:after {
+  transform: translateY(-8%);
+  content: "Realización de ferias de salud, llevando médicos, enfermeras, ginecólogos, pediatras, nutriólogos, etc.";
+  padding-top: 15rem;
+
+  }  .card:nth-child(2):hover:after,
+  .card:nth-child(2):focus-within:after {
+  transform: translateY(-8%);
+  content: "Apoyo a comunidades de escasos recursos a través de donaciones de ropa, juguetes, despensa y medicamentos.";
+  padding-top: 15rem;
+
+  }  .card:nth-child(3):hover:after,
+  .card:nth-child(3):focus-within:after {
+  transform: translateY(-8%);
+  content: "Tiene como objetivo proporcionar recursos y servicios para que personas en situaciones vulnerables puedan ejercer un oficio, a través de cursos y talleres.";
+  padding-top: 15rem;
+  
+
+  }  .card:nth-child(4):hover:after,
+  .card:nth-child(4):focus-within:after {
+  transform: translateY(-8%);
+  content: "Concientizar a través de eventos y el uso de las redes sociales sobre la importancia de ayudar a las demás personas.";
+  padding-top: 15rem;
+
+  }
+
+  
+  .card:hover  .cardcontent,
+.card:focus-within  .cardcontent {
+    transform: translateY(50%);
+  }
+  .card:hover  .cardcontent > *:not(.title),
+.card:focus-within .cardcontent > *:not(.title) {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: calc(var(--d) / 8);
+  }
+  
+
+  .card:focus-within:before, .card:focus-within:after,
+.card:focus-within .cardcontent,
+.card:focus-within .cardcontent > *:not(.title) {
+    transition-duration: 0s;
+  }
+
+}
+/* mision vision y valores */
+
+@media (min-width:800px) {
+
+}
+.centerObjetivo {
+
+  width: 100%;
+ 
+}
+.imgVision {
+  width: 4rem;
+  padding-bottom: -1rem;
+  margin-top: -6rem;
+}
+.imgValores{
+  width: 4rem;
+  padding-bottom: -1rem;
+  margin-top: -6rem;
+
+}
+.imgMision {
+  width: 4rem;
+  padding-bottom: -1rem;
+  margin-top: -6rem;
+}
+
+/* objetivo */
+@media (min-width:800px) {
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  font-family: "Arvo", serif;
+  font-size: 21px;
+  border-radius: 10px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+  height: 35vw;
+}
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgb(116, 114, 114);
+
+}
+.container2 {
+  padding: 5rem 0vw 17rem 0vw;
+  display:grid;
+  margin-bottom: 25vw;
+  margin-top: 4vw;
+  column-gap: 1vw;
+  grid-template-columns: 1fr;
+  height: 40vh;
+
+}
+
+.card2:nth-child(1){
+  background-image: url(./../../../Assets/Atrevete/Atr-2.jpg);
+ background-position: 10% 15%;
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+
+
+}
+
+.sepText{
+  padding: 0 20px;
+}
+
+
+  
+.card1 {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  text-align: center;
+  padding-top: 10rem;
+  font-family: "Arvo", serif;
+  font-size: 15px;
+  color: white;
+  border-radius: 10px;
+  background-position: 40% 50%;
+  background-size: 200%;
+  background-repeat: no-repeat;
+ 
+}
+.card1:nth-child(1){
+  background-image: url(./../../../Assets/Atrevete/Atr-15_3.jpg); 
+}
+.card1:nth-child(2){
+  background-image: url(./../../../Assets/Atrevete/Atr-K1_4.jpg);
+}
+.card1:nth-child(3){
+  background-image: url(./../../../Assets/Atrevete/Atr-17_2.jpg);
+  background-position: 55% 50%;
+}
+/* On mouse-over, add a deeper shadow */
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+/* Add some padding inside the card container */
+.container1 {
+  padding: 5px 16px;
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1.5fr;
+  /* margin-left: 14vw;
+  margin-right: 14vw; */
+  margin-bottom: 18vw;
+  column-gap: 3vw;
+  height: 35vh 
+}
+}
+ 
